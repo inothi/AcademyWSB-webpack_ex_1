@@ -1,0 +1,21 @@
+@use "../utils/variables.scss";
+@use "../utils/mixins.scss";
+
+a {
+    color: variables.$link-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.landing-copy {
+    p {
+        @include mixins.paragraph;
+    }
+    
+    h1 {
+        @include mixins.header1;
+    }
+}

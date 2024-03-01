@@ -1,0 +1,9 @@
+@mixin paragraph {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+@mixin header1 {
+    font-size: 3em;
+    line-height: 1.2em;
+}
